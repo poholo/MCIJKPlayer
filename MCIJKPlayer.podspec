@@ -2,12 +2,12 @@ Pod::Spec.new do |s|
     s.name             = "MCIJKPlayer"
     s.version          = "0.0.1"
     s.summary          = "IJKPlayer framework。"
-    s.license          = 'GPL2.1'
+    s.license          = 'LGPLv2.1'
     s.author           = { "littleplayer" => "mailjiancheng@163.com" }
     s.homepage         = "https://github.com/poholo/MCIJKPlayer"
     s.source           = { :git => "https://github.com/poholo/MCIJKPlayer.git", :tag => s.version.to_s }
 
-    s.platform     = :ios, '9.0'
+    s.platform     = :ios, '8.0'
     s.requires_arc = true
     s.vendored_frameworks = 'SDK/IJKMediaFramework.framework'
   
