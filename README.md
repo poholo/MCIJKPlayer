@@ -13,4 +13,4 @@ IJKPlayer
 
 
 ## Liscense
-MCIJKPlayer under MIT liscense.
+MCIJKPlayer under LGPL-2.1 liscense.
