@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
     s.summary          = "IJKPlayer framework。"
     s.license          = 'LGPLv2.1'
     s.author           = { "littleplayer" => "mailjiancheng@163.com" }
-    s.homepage         = "https://e.coding.net/lp_mr/MCIJKPlayer.git"
-    s.source           = { :git => "https://e.coding.net/lp_mr/MCIJKPlayer.git", :tag => s.version.to_s }
+    s.homepage         = "https://github.com/poholo/MCIJKPlayer.git"
+    s.source           = { :git => "https://github.com/poholo/MCIJKPlayer.git", :tag => s.version.to_s }
 
     s.platform     = :ios, '8.0'
     s.requires_arc = true
