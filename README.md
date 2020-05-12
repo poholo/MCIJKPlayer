@@ -1,3 +1,9 @@
+## 建议还是使用coding上的吧, lfs大文件再pod上坑比较多
+```
+https://e.coding.net/lp_mr/MCIJKPlayer.git
+pod 'MCIJKPlayer', '0.0.8'
+```
+
 # MCIJKPlayer
 IJKPlayer是ijk的一个framework，主要是解决iOS新版本UI线程检查导致的阻塞问题。
 
