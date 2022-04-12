@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "data": {
+    "player_title_font": 15,
+    "player_time_font": 10,
+    "player_terminal_title_font": 15,
+    "player_terminal_info_font": 13
+  }
+}

@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334E63D126A8224F00D210DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334E63D026A8224F00D210DE /* AppDelegate.swift */; };
+		334E63D326A8224F00D210DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334E63D226A8224F00D210DE /* SceneDelegate.swift */; };
+		334E63D526A8224F00D210DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334E63D426A8224F00D210DE /* ViewController.swift */; };
+		334E63D826A8224F00D210DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334E63D626A8224F00D210DE /* Main.storyboard */; };
+		334E63DA26A8225200D210DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334E63D926A8225200D210DE /* Assets.xcassets */; };
+		334E63DD26A8225200D210DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334E63DB26A8225200D210DE /* LaunchScreen.storyboard */; };
+		336B4F0C26CB6DCA009A8EDF /* Player.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336B4F0B26CB6DC9009A8EDF /* Player.xcassets */; };
+		336B4F2D26CB9854009A8EDF /* CustomPlayerFont.json in Resources */ = {isa = PBXBuildFile; fileRef = 336B4F2926CB9854009A8EDF /* CustomPlayerFont.json */; };
+		336B4F2E26CB9854009A8EDF /* CustomPlayerStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 336B4F2A26CB9854009A8EDF /* CustomPlayerStyle.json */; };
+		336B4F2F26CB9854009A8EDF /* NormalPlayer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336B4F2B26CB9854009A8EDF /* NormalPlayer.xcassets */; };
+		336B4F3026CB9854009A8EDF /* CustomPlayerColor.json in Resources */ = {isa = PBXBuildFile; fileRef = 336B4F2C26CB9854009A8EDF /* CustomPlayerColor.json */; };
+		A51B053210639E0A692BEC1B /* Pods_MCIJKPlayerTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE55E1D2DEF10FB2149EE225 /* Pods_MCIJKPlayerTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		334E63CD26A8224F00D210DE /* MCIJKPlayerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCIJKPlayerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		334E63D026A8224F00D210DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		334E63D226A8224F00D210DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		334E63D426A8224F00D210DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		334E63D726A8224F00D210DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		334E63D926A8225200D210DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		334E63DC26A8225200D210DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		334E63DE26A8225200D210DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334E63E426A9597B00D210DE /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		336B4F0B26CB6DC9009A8EDF /* Player.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Player.xcassets; sourceTree = "<group>"; };
+		336B4F2926CB9854009A8EDF /* CustomPlayerFont.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomPlayerFont.json; sourceTree = "<group>"; };
+		336B4F2A26CB9854009A8EDF /* CustomPlayerStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomPlayerStyle.json; sourceTree = "<group>"; };
+		336B4F2B26CB9854009A8EDF /* NormalPlayer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NormalPlayer.xcassets; sourceTree = "<group>"; };
+		336B4F2C26CB9854009A8EDF /* CustomPlayerColor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CustomPlayerColor.json; sourceTree = "<group>"; };
+		33EC964D26CA1919005686A6 /* MCIJKPlayer.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = MCIJKPlayer.podspec; path = ../MCIJKPlayer.podspec; sourceTree = "<group>"; };
+		4A3D0F0D0DB8BDF971E9A753 /* Pods-MCIJKPlayerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCIJKPlayerTest.debug.xcconfig"; path = "Target Support Files/Pods-MCIJKPlayerTest/Pods-MCIJKPlayerTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A4D84CA1DE1EF3E2B8E46A5F /* Pods-MCIJKPlayerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCIJKPlayerTest.release.xcconfig"; path = "Target Support Files/Pods-MCIJKPlayerTest/Pods-MCIJKPlayerTest.release.xcconfig"; sourceTree = "<group>"; };
+		CE55E1D2DEF10FB2149EE225 /* Pods_MCIJKPlayerTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCIJKPlayerTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334E63CA26A8224F00D210DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51B053210639E0A692BEC1B /* Pods_MCIJKPlayerTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334E63C426A8224F00D210DE = {
+			isa = PBXGroup;
+			children = (
+				33EC964D26CA1919005686A6 /* MCIJKPlayer.podspec */,
+				334E63CF26A8224F00D210DE /* MCIJKPlayerTest */,
+				334E63E426A9597B00D210DE /* IJKMediaFramework.framework */,
+				334E63CE26A8224F00D210DE /* Products */,
+				5C228D3E81DFF8A95CFEA023 /* Pods */,
+				95946881328B13BC951AC1B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		334E63CE26A8224F00D210DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				334E63CD26A8224F00D210DE /* MCIJKPlayerTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		334E63CF26A8224F00D210DE /* MCIJKPlayerTest */ = {
+			isa = PBXGroup;
+			children = (
+				336B4F2726CB9854009A8EDF /* Resources */,
+				336B4F0B26CB6DC9009A8EDF /* Player.xcassets */,
+				334E63D026A8224F00D210DE /* AppDelegate.swift */,
+				334E63D226A8224F00D210DE /* SceneDelegate.swift */,
+				334E63D426A8224F00D210DE /* ViewController.swift */,
+				334E63D626A8224F00D210DE /* Main.storyboard */,
+				334E63D926A8225200D210DE /* Assets.xcassets */,
+				334E63DB26A8225200D210DE /* LaunchScreen.storyboard */,
+				334E63DE26A8225200D210DE /* Info.plist */,
+			);
+			path = MCIJKPlayerTest;
+			sourceTree = "<group>";
+		};
+		336B4F2726CB9854009A8EDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				336B4F2826CB9854009A8EDF /* Datas */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		336B4F2826CB9854009A8EDF /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				336B4F2926CB9854009A8EDF /* CustomPlayerFont.json */,
+				336B4F2A26CB9854009A8EDF /* CustomPlayerStyle.json */,
+				336B4F2B26CB9854009A8EDF /* NormalPlayer.xcassets */,
+				336B4F2C26CB9854009A8EDF /* CustomPlayerColor.json */,
+			);
+			path = Datas;
+			sourceTree = "<group>";
+		};
+		5C228D3E81DFF8A95CFEA023 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A3D0F0D0DB8BDF971E9A753 /* Pods-MCIJKPlayerTest.debug.xcconfig */,
+				A4D84CA1DE1EF3E2B8E46A5F /* Pods-MCIJKPlayerTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95946881328B13BC951AC1B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE55E1D2DEF10FB2149EE225 /* Pods_MCIJKPlayerTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		334E63CC26A8224F00D210DE /* MCIJKPlayerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334E63E126A8225200D210DE /* Build configuration list for PBXNativeTarget "MCIJKPlayerTest" */;
+			buildPhases = (
+				616112AE871DB6B9874568DE /* [CP] Check Pods Manifest.lock */,
+				334E63C926A8224F00D210DE /* Sources */,
+				334E63CA26A8224F00D210DE /* Frameworks */,
+				334E63CB26A8224F00D210DE /* Resources */,
+				61E973C4B322C2569C81003E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCIJKPlayerTest;
+			productName = MCIJKPlayerTest;
+			productReference = 334E63CD26A8224F00D210DE /* MCIJKPlayerTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334E63C526A8224F00D210DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = poholo;
+				TargetAttributes = {
+					334E63CC26A8224F00D210DE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 334E63C826A8224F00D210DE /* Build configuration list for PBXProject "MCIJKPlayerTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 334E63C426A8224F00D210DE;
+			productRefGroup = 334E63CE26A8224F00D210DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				334E63CC26A8224F00D210DE /* MCIJKPlayerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		334E63CB26A8224F00D210DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336B4F0C26CB6DCA009A8EDF /* Player.xcassets in Resources */,
+				334E63DD26A8225200D210DE /* LaunchScreen.storyboard in Resources */,
+				334E63DA26A8225200D210DE /* Assets.xcassets in Resources */,
+				336B4F2E26CB9854009A8EDF /* CustomPlayerStyle.json in Resources */,
+				334E63D826A8224F00D210DE /* Main.storyboard in Resources */,
+				336B4F3026CB9854009A8EDF /* CustomPlayerColor.json in Resources */,
+				336B4F2F26CB9854009A8EDF /* NormalPlayer.xcassets in Resources */,
+				336B4F2D26CB9854009A8EDF /* CustomPlayerFont.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		616112AE871DB6B9874568DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MCIJKPlayerTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61E973C4B322C2569C81003E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MCIJKPlayerTest/Pods-MCIJKPlayerTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MCIJKPlayerTest/Pods-MCIJKPlayerTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MCIJKPlayerTest/Pods-MCIJKPlayerTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		334E63C926A8224F00D210DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334E63D526A8224F00D210DE /* ViewController.swift in Sources */,
+				334E63D126A8224F00D210DE /* AppDelegate.swift in Sources */,
+				334E63D326A8224F00D210DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		334E63D626A8224F00D210DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334E63D726A8224F00D210DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		334E63DB26A8225200D210DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334E63DC26A8225200D210DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		334E63DF26A8225200D210DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		334E63E026A8225200D210DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		334E63E226A8225200D210DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3D0F0D0DB8BDF971E9A753 /* Pods-MCIJKPlayerTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FNUHS4H7D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MCIJKPlayerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GCDMulticastDelegate\"",
+					"-framework",
+					"\"IJKMediaFramework\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MCBase\"",
+					"-framework",
+					"\"MCPlayerKit\"",
+					"-framework",
+					"\"MCStyle\"",
+					"-framework",
+					"\"MCVersion\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mc.MCIJKPlayerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		334E63E326A8225200D210DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D84CA1DE1EF3E2B8E46A5F /* Pods-MCIJKPlayerTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FNUHS4H7D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MCIJKPlayerTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GCDMulticastDelegate\"",
+					"-framework",
+					"\"IJKMediaFramework\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MCBase\"",
+					"-framework",
+					"\"MCPlayerKit\"",
+					"-framework",
+					"\"MCStyle\"",
+					"-framework",
+					"\"MCVersion\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"VideoToolbox\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mc.MCIJKPlayerTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334E63C826A8224F00D210DE /* Build configuration list for PBXProject "MCIJKPlayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334E63DF26A8225200D210DE /* Debug */,
+				334E63E026A8225200D210DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334E63E126A8225200D210DE /* Build configuration list for PBXNativeTarget "MCIJKPlayerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334E63E226A8225200D210DE /* Debug */,
+				334E63E326A8225200D210DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 334E63C526A8224F00D210DE /* Project object */;
+}

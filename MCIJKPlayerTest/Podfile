@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+use_frameworks!
+
+target 'MCIJKPlayerTest' do
+  # pod 'GCDMulticastDelegate'
+  # pod 'MCVersion'
+  # pod 'MCStyle'
+  # pod 'MCBase'
+  # pod 'SDWebImage'
+  pod 'MCPlayerKit/GeneralPlayerUI', path: '../../MCPlayerKit/'
+
+#  pod 'MCIJKPlayer', '0.1.1'
+#  pod 'MCPlayerKit/SwiftGeneralPlayerUI', git: 'https://github.com/poholo/MCPlayerkit.git'
+  pod 'MCIJKPlayer', path: '../'
+  pod 'MCStyle', path: '../../MCStyle/'
+  pod 'MCBase', path: '../../MCBase/'
+end
