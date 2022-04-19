@@ -10,9 +10,6 @@ https://e.coding.net/lp_mr/MCIJKPlayer.git [由于coding网设置,故需要登�
 pod 'MCIJKPlayer', '0.1.2'
 ```
 
-# MCIJKPlayer
-IJKPlayer是ijk的一个framework，主要是解决iOS新版本UI线程检查导致的阻塞问题。
-
 ## 集成方法
 ### 0. 接入
 ```text
