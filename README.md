@@ -6,7 +6,7 @@ MCIJKPlayer是ijkplayer iOS 编译后的IJKMediaFramework.framework库,支持arm
 
 ## 建议还是使用coding上的吧, lfs大文件再pod上坑比较多
 ```
-https://e.coding.net/lp_mr/MCIJKPlayer.git [由于coding网设置,故需要登录才能看到项目]
+https://lp_mr.coding.net/public/MCIJKPlayer/MCIJKPlayer/git/files [更新一下coding公布的开源地址]
 pod 'MCIJKPlayer', '0.1.2'
 ```
 
@@ -27,4 +27,3 @@ pod 'MCIJKPlayer'
 
 ## License
 MCShare under ijkplayer license.
-
